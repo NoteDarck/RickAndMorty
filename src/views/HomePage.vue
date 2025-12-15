@@ -467,8 +467,8 @@ const contribuidores = ref<GitHubContributor[]>([])
 const carregandoGitHub = ref(false)
 
 // Configurações do GitHub (pode ser alterado para qualquer usuário/repositório)
-const GITHUB_USERNAME = 'seu-usuario' // Altere para seu usuário do GitHub
-const GITHUB_REPO = 'rick-and-morty-app' // Altere para seu repositório
+const GITHUB_USERNAME = 'NoteDarck' // Altere para seu usuário do GitHub
+const GITHUB_REPO = 'RickAndMorty' // Altere para seu repositório
 
 // GET da API
 const carregarPersonagens = async (nome = '', url?: string) => {
